@@ -8,7 +8,7 @@ include_directories(include)
 
 add_executable(${PROJECT_NAME}
                 src/main.cpp
-                src/board.cpp
+                src/map.cpp
                 src/pathfinder.cpp
                 )
 file(COPY data/map.txt DESTINATION ${CMAKE_BINARY_DIR})
