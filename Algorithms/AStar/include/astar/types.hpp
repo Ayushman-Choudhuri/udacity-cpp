@@ -32,6 +32,8 @@ struct Node {
     Node(int x , int y, int g_cost , int h_cost)
         : position(x, y), g(g_cost), h(h_cost) {}
 
+    int f() const { return g + h; }
+
 };
 
 }
