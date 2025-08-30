@@ -138,7 +138,7 @@ int main() {
 
     
     int start[] = {0,0};
-    int goal[] = {0,5};
+    int goal[] = {8,10};
 
     auto map = ReadBoardFile("map.txt");
     PrintBoard(map);
